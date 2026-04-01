@@ -9,7 +9,7 @@ BASE_URL = "https://jsonplaceholder.typicode.com"
 @app.route("/")
 def home():
     return jsonify({
-        "message": "Flask JSONPlaceholder API is running",
+        "message": "Flask JSONPlaceholder API is running successfully",
         "routes": ["/posts", "/comment", "/albums"]
     })
 
